@@ -1,0 +1,28 @@
+* {
+  outline: none;
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local('Montserrat-Medium'), url(../../fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  height: 100%; 
+  width: 100%; 
+  font-family: 'Montserrat-Medium';
+}
+
+html {
+  position: relative;
+  height: 100%; 
+  width: 100%; 
+}
+
+#root {
+  height: 100%; 
+  width: 100%; 
+}
